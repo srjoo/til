@@ -51,7 +51,7 @@ class RealMovie1 implements Movie {
 |상속, 구성|상속|구성|
 
 # 간단한 예시
-- 고객이 나(AbstractFactory)에 소프트웨어 제작을 명세서와 함께 맡긴다
+- 고객이 나(AbstractFactory)에게 소프트웨어 제작을 명세서와 함께 맡긴다
 - 나는 실제 소프트웨어 제작법을 모르고, 다른 회사(ConcreteFactory)에 맡기는 방법을 안다
 - 고객에게서 받은 명세서를 토대로 다른 회사에 소프트웨어를 발주하여 받는다(ConcreteProduct). 발주는 내가 하므로 고객은 소프트웨어를 발주하는 방법을 알 필요가 없다(ConcreteFactory에 대한 의존성 없음)
 - 고객은 받은 제품이 어떻게 구성되어 있는지 알 필요 없이(AbstractProduct) 원하는 기능을 사용한다.
