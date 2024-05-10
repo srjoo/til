@@ -69,4 +69,4 @@ void main() {
 |내용|URL|
 |:---|:---|
 |Factory 패턴 (2/3) - Factory Method (팩토리 메서드) 패턴|https://bcp0109.tistory.com/367|
-[Factory 패턴 (1/3) - Simple Factory|https://bcp0109.tistory.com/366|
+|Factory 패턴 (1/3) - Simple Factory|https://bcp0109.tistory.com/366|
