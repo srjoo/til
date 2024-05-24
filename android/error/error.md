@@ -27,3 +27,11 @@ xml를 만든다(위치는 res/xml)
 ```xml
 <application    ...    android:usesCleartextTraffic="true">
 ```
+
+# Targeting S+ (version 31 and above) requires that one of FLAG_IMMUTABLE or FLAG_MUTABLE be specified when creating a PendingIntent.
+원인 : 31 이상에서는 PendingIntent 생성시 FLAG_IMMUTABLE 혹은 FLAG_MUTABLE 을 명시해야함ㅁ
+해결 : 
+```kotlin
+        val pendingIntent: PendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_ONE_SHOT or PendingIntent.FLAG_IMMUTABLE)
+		// 생성자의 마지막에 플래그 넣어준다
+```
