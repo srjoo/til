@@ -41,6 +41,12 @@ dependencies {
 class ExampleApplication : Application() { ... }
 ```
 
+- AndroidManifest.xml
+```
+    <application
+        android:name=".ExampleApplication"
+```
+
 - 종속성 주입할 클래스(예제는 Activity)
 ```kotlin
 @AndroidEntryPoint
