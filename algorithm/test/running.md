@@ -20,3 +20,35 @@ players	callings	result
 입출력 예 #1
 
 4등인 "kai" 선수가 2번 추월하여 2등이 되고 앞서 3등, 2등인 "poe", "soe" 선수는 4등, 3등이 됩니다. 5등인 "mine" 선수가 2번 추월하여 4등, 3등인 "poe", "soe" 선수가 5등, 4등이 되고 경주가 끝납니다. 1등부터 배열에 담으면 ["mumu", "kai", "mine", "soe", "poe"]이 됩니다.
+
+# 테스트 예제
+테스트 1
+입력값 〉	["mumu", "soe", "poe", "kai", "mine"], ["kai", "kai", "mine", "mine"]
+기댓값 〉	["mumu", "kai", "mine", "soe", "poe"]
+실행 결과 〉	테스트를 통과하였습니다.
+
+# 제출
+```java
+import java.util.HashMap;
+
+class Solution {
+    public String[] solution(String[] players, String[] callings) {
+        HashMap<String, Integer> indexMap = new HashMap<>();
+        String[] answer = new String[players.length];
+        for(int i=0; i < players.length; i++) {
+            indexMap.put(players[i], i);
+            answer[i] = players[i];
+        }
+        for(String name : callings) {
+            int index = indexMap.get(name);
+            String targetName = answer[index-1];
+            indexMap.put(name, index-1);
+            indexMap.put(targetName, index);
+            answer[index-1] = name;
+            answer[index] = targetName;
+        }
+
+        return answer;
+    }
+}
+```
