@@ -37,15 +37,17 @@ name	yearning	photo	result
 테스트 1
 입력값 〉	["may", "kein", "kain", "radi"], [5, 10, 1, 3], [["may", "kein", "kain", "radi"], ["may", "kein", "brin", "deny"], ["kon", "kain", "may", "coni"]]
 기댓값 〉	[19, 15, 6]
-실행 결과 〉	테스트를 통과하였습니다.
+
+
 테스트 2
 입력값 〉	["kali", "mari", "don"], [11, 1, 55], [["kali", "mari", "don"], ["pony", "tom", "teddy"], ["con", "mona", "don"]]
 기댓값 〉	[67, 0, 55]
-실행 결과 〉	테스트를 통과하였습니다.
+
+
 테스트 3
 입력값 〉	["may", "kein", "kain", "radi"], [5, 10, 1, 3], [["may"], ["kein", "deny", "may"], ["kon", "coni"]]
 기댓값 〉	[5, 15, 0]
-실행 결과 〉	테스트를 통과하였습니다.
+
 
 # 제출
 ```java

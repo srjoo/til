@@ -76,15 +76,15 @@ a와 b, a와 c, b와 c 사이에 서로 선물을 주고받은 수도 같고 세
 테스트 1
 입력값 〉	["muzi", "ryan", "frodo", "neo"], ["muzi frodo", "muzi frodo", "ryan muzi", "ryan muzi", "ryan muzi", "frodo muzi", "frodo ryan", "neo muzi"]
 기댓값 〉	2
-실행 결과 〉	테스트를 통과하였습니다.
+
 테스트 2
 입력값 〉	["joy", "brad", "alessandro", "conan", "david"], ["alessandro brad", "alessandro joy", "alessandro conan", "david alessandro", "alessandro david"]
 기댓값 〉	4
-실행 결과 〉	테스트를 통과하였습니다.
+
 테스트 3
 입력값 〉	["a", "b", "c"], ["a b", "b a", "c a", "a c", "a c", "c a"]
 기댓값 〉	0
-실행 결과 〉	테스트를 통과하였습니다.
+
 
 # 제출
 ```kotlin

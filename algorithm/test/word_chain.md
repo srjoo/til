@@ -65,15 +65,15 @@ n	words	result
 테스트 1
 입력값 〉	3, ["tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"]
 기댓값 〉	[3, 3]
-실행 결과 〉	테스트를 통과하였습니다.
+
 테스트 2
 입력값 〉	5, ["hello", "observe", "effect", "take", "either", "recognize", "encourage", "ensure", "establish", "hang", "gather", "refer", "reference", "estimate", "executive"]
 기댓값 〉	[0, 0]
-실행 결과 〉	테스트를 통과하였습니다.
+
 테스트 3
 입력값 〉	2, ["hello", "one", "even", "never", "now", "world", "draw"]
 기댓값 〉	[1, 3]
-실행 결과 〉	테스트를 통과하였습니다.
+
 
 # 제출
 ```java

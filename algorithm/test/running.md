@@ -25,7 +25,7 @@ players	callings	result
 테스트 1
 입력값 〉	["mumu", "soe", "poe", "kai", "mine"], ["kai", "kai", "mine", "mine"]
 기댓값 〉	["mumu", "kai", "mine", "soe", "poe"]
-실행 결과 〉	테스트를 통과하였습니다.
+
 
 # 제출
 ```java
