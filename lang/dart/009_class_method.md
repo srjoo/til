@@ -51,3 +51,16 @@ abstract class Doer {
   void doSomething(); // 추상 메서드 정의.
 }
 ```
+
+# call 메서드
+- 클래스의 인스턴스를 함수처럼 호출하고 싶다면, call() 메소드를 구현
+```dart
+class WannabeFunction {
+  String call(String a, String b, String c) => '$a $b $c!';
+}
+
+var wf = WannabeFunction();
+var out = wf('Hi', 'there,', 'gang');
+
+void main() => print(out);
+```
